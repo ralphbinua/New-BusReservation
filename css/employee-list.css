@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "kanit", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 3.125rem auto;
+    background: #fff;
+    padding: 1.25rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+}
+table, th, td {
+    border: 0.0625rem solid #ddd;
+}
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+.action-buttons {
+    display: flex;
+    gap: 0.625rem;
+}
+.action-buttons a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.3125rem;
+}
+.action-buttons .edit {
+    background-color: #4CAF50;
+}
+.action-buttons .delete {
+    background-color: #f44336;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns items to the left */
+    margin-bottom: 1.25rem; /* Space below the button */
+}
+
+.add-employee-button {
+    display: inline-block;
+    background-color: #078b28; /* Bootstrap primary color */
+    color: #fff;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-employee-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}

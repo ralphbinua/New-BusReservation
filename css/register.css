@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "kanit", sans-serif;
+}
+
+main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    display: block;
+    margin-top: 1rem;
+    border: 1px solid #000;
+    padding: 4rem 3rem;
+    border-radius: 5px;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.down-function{
+    text-align: center;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.have-account{
+    text-decoration: none;
+    color: rgb(45, 112, 238);
+}
+
+.have-account:hover{
+    text-decoration: underline;
+}
